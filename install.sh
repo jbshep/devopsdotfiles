@@ -14,6 +14,7 @@ files=(.vimrc .inputrc)
 if [[ -n "$1" && "$1" == "link" ]]; then
     # Method 2: Git and link
     for f in ${files[@]}; do 
+        rm -f $HOME/$f
         ln -s $PWD/$f $HOME/$f
     done
 else
