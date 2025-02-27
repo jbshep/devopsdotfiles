@@ -1,6 +1,6 @@
 # devopsdotfiles
 
-This script can be invoked one of two ways.
+The dotfiles in this repository can be installed one of two ways (see below).
 
 ## Method 1
 ```
